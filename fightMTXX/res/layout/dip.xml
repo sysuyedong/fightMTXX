@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#7ac2f4" >
+
+       <RelativeLayout
+           android:id="@+id/relativeLayout1"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content" >
+
+	       <Button
+	           android:id="@+id/index"
+	           android:layout_width="64dp"
+	           android:layout_height="wrap_content"
+	           android:layout_alignParentLeft="true"
+	           android:layout_margin="10dp"
+	           android:text="@string/index" />
+	
+		    <Button
+		        android:id="@+id/save"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentRight="true"
+		        android:layout_margin="10dp"
+		        android:background="@drawable/save"
+		        android:text="" />    
+               </RelativeLayout>
+
+	 <TextView
+	     android:id="@+id/effect"
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	     android:layout_gravity="center"
+	     android:layout_marginTop="10dp"
+	     android:text="@string/text"
+	     android:textAppearance="?android:attr/textAppearanceLarge" />
+	 
+	  <Button
+	     android:id="@+id/method"
+	     android:layout_width="fill_parent"
+	     android:layout_height="wrap_content" 
+	     android:text="@string/imagemethod"
+	     android:gravity="center" />
+	  
+	  <LinearLayout
+	      android:layout_width="wrap_content"
+	      android:layout_height="wrap_content"
+	      android:orientation="vertical"
+	      android:background="#7ac2f4"   >
+   
+	      <ImageView
+	          android:id="@+id/show"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="10dp"
+              android:layout_gravity="center"
+              android:orientation="vertical"
+              android:adjustViewBounds="true" />
+	  </LinearLayout>
+
+</LinearLayout>

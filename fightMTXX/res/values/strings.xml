@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, FightMTXXActivity!</string>
+    <string name="app_name">逆袭美图XiuXiu</string>
+    <string name="chooseAnImg">请选择一张图片</string>
+    <string name="dip">一起来逆袭吧！</string>
+    <string name="draw">可以画图啦！</string>
+    <string name="text">原图</string>
+	<string name="effect">效果</string>
+	<string name="cancel">取消</string>
+	<string name="index">首页</string>
+	<string name="imagemethod">图像处理方法</string>
+	<string name="tone">色调饱和度、色相、亮度</string>
+	<string name="content">请输入你想添加的内容：</string>
+	<string name="x">请输入你想添加的位置的横坐标：</string>
+	<string name="y">请输入你想添加的位置的纵坐标：</string>
+	<string name="imagewriter">图片上写文字啦！</string>
+	<string name="ok">确定</string>
+	<string name="sketch">素描哦</string>
+	<string name="about">相关介绍和作者</string>
+	<string name="back">返回</string>
+	<string name="drawColor">画笔颜色</string>
+	<string name="red">红色</string>
+	<string name="clear">清除</string>
+	<string name="green">绿色</string>
+	<string name="blue">蓝色</string>
+	    
+</resources>

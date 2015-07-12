@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="#7ac2f4" >
+    
+     <RelativeLayout
+           android:id="@+id/relativeLayout1"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content" >
+
+	       <Button
+	           android:id="@+id/cancel"
+	           android:layout_width="64dp"
+	           android:layout_height="wrap_content"
+	           android:layout_alignParentLeft="true"
+	           android:layout_margin="10dp"
+	           android:text="@string/cancel" />
+	
+		    <Button
+		        android:id="@+id/save"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentRight="true"
+		        android:layout_margin="10dp"
+		        android:background="@drawable/save"
+		        android:text="" />    
+         
+      </RelativeLayout>
+      
+     <LinearLayout 
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal" >"
+     <TextView
+         android:id="@+id/hint1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="@string/content" 
+         android:textColor="@color/black"/>
+     
+     <EditText
+         android:id="@+id/content"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content" />"
+     </LinearLayout>
+     
+     <LinearLayout 
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal" >
+     <TextView
+         android:id="@+id/hint2"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="@string/x" 
+         android:textColor="@color/black"/>
+     
+     <EditText
+         android:id="@+id/x"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content" />
+     </LinearLayout>
+     
+     <LinearLayout 
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal" >
+     <TextView
+         android:id="@+id/hint3"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="@string/y"
+         android:textColor="@color/black" />
+     
+     <EditText
+         android:id="@+id/y"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content" />
+     </LinearLayout>
+     
+     <Button
+         android:id="@+id/submit"
+         android:layout_height="wrap_content"
+         android:layout_width="fill_parent"
+         android:gravity="center" 
+         android:text="@string/ok"/>"
+    
+      
+        <ImageView  
+            android:id="@+id/writerimage" 
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"          
+            android:layout_gravity="center"  
+            android:adjustViewBounds="true" />  
+            
+ 
+
+</LinearLayout>
